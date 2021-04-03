@@ -1,6 +1,6 @@
 import type { AWS } from '@serverless/typescript';
 
-import hello from '@functions/hello';
+import ticket from '@functions/ticket';
 
 const serverlessConfiguration: AWS = {
   service: 'ymgr-ticket-api',
@@ -21,11 +21,12 @@ const serverlessConfiguration: AWS = {
     },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
+      TWITTER_API_TOKEN: "AAAAAAAAAAAAAAAAAAAAAFB6NgEAAAAAOAs255aIs9EBeYjupl3gUduKCmA%3DrDKzxIjIh7kxblYBxVt2AavNvJvn5SYpDZv9Ox9JbucKNzIait"
     },
     lambdaHashingVersion: '20201221',
   },
   // import the function via paths
-  functions: { hello },
+  functions: { ticket },
 };
 
 module.exports = serverlessConfiguration;
