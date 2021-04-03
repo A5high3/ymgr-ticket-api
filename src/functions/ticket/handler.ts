@@ -24,6 +24,7 @@ const ticket: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (
       content: result
     });
   } catch (e) {
+    console.error(e, event.body)
     return formatErrorJSONResponse({ message: "error" });
   }
 };
