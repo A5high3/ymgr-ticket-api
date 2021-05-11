@@ -69,7 +69,6 @@ export class TwitterApi {
     );
     const shaped = filteringTweets.map(tweet=>{
       delete tweet.author_id
-      delete tweet.id
       return tweet
     })
     const parsed = {

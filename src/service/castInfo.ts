@@ -144,5 +144,24 @@ export class CastTwitterBase {
         twitterId: "1361593692314734596",
         userName: "Kiyosumi_H_YG"            
     }
-
+    public static  cast_id_38 = {
+        twitterId: "1390558197828636673",
+        userName: "Asahi_M_YG"
+    }
+    public static  cast_id_39 = {
+        twitterId: "1390635911197564937",
+        userName: "Leah_R_YG"
+    }
+    public static  cast_id_40 = {
+        twitterId: "1390668709400694785",
+        userName: "Kurarisu_O_YG"
+    }
+    public static  cast_id_41 = {
+        twitterId: "1390492467653341186",
+        userName: "Latte_M_YG"
+    }
+    public static  cast_id_42 = {
+        twitterId: "1391618672544813066",
+        userName: "Shiena_l_YG"
+    }
 }
