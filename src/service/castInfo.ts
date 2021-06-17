@@ -164,4 +164,31 @@ export class CastTwitterBase {
         twitterId: "1391618672544813066",
         userName: "Shiena_l_YG"
     }
+    public static  cast_id_43 = {
+          
+    }
+    public static  cast_id_44 = {
+        twitterId: "1403230563524247552",
+        userName: "Kogare_M_YG"
+    }
+    public static  cast_id_45 = {
+        twitterId: "1403178006378532875",
+        userName: "Moe_M_YG"
+    }
+    public static  cast_id_46 = {
+        twitterId: "1403516037065109505",
+        userName: "Nicola_C_YG"
+    }
+    public static  cast_id_47 = {
+        twitterId: "1403327492782379015",
+        userName: "Rose_B_YG"
+    }
+    public static  cast_id_48 = {
+        twitterId: "1403235239837638658",
+        userName: "Kaede_A_YG"
+    }
+    public static  cast_id_49 = {
+        twitterId: "1403713803552911363",
+        userName: "Muscat_S_YG"
+    }
 }

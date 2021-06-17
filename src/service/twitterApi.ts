@@ -1,4 +1,5 @@
 import * as axios from "axios";
+import { CastTwitterBase } from "../service/castInfo"
 import {  TwitterTimeLineAPIResponse } from "../models/httpRequests";
 import { ParseTwiTlApiRespose } from "../models/parse"
 
@@ -52,6 +53,12 @@ export class TwitterApi {
   public static parseTwiTlApiResponse(apiResponse: TwitterTimeLineAPIResponse): ParseTwiTlApiRespose {
     const filteringTweets = apiResponse.data.filter(
       (tweetObject) => {
+        if (tweetObject.author_id === CastTwitterBase.cast_id_1.twitterId) {
+          return true
+        }
+        if (tweetObject.author_id === CastTwitterBase.cast_id_13.twitterId) {
+          return true
+        }
         if (tweetObject.text.includes("チケット")){
           return true
         }
