@@ -11,7 +11,7 @@ export class Validator {
       if (3 < requestBody.requestIds.length) {
         throw new Error("RequestIds Limit Over");
       }
-      if (!requestBody.requestIds.every((id) => +id < 50)) {
+      if (!requestBody.requestIds.every((id) => +id < 61)) {
         throw new Error("Invalid RequestIds");
       }
       if (requestBody.requestIds.includes("6")) {
@@ -23,7 +23,10 @@ export class Validator {
       if (requestBody.requestIds.includes("8")) {
         throw new Error("Invalid RequestIds");
       }
-      if (requestBody.requestIds.includes("43")) {
+      if (requestBody.requestIds.includes("57")) {
+        throw new Error("Invalid RequestIds");
+      }
+      if (requestBody.requestIds.includes("58")) {
         throw new Error("Invalid RequestIds");
       }
       return requestBody;

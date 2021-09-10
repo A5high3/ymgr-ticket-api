@@ -164,9 +164,6 @@ export class CastTwitterBase {
         twitterId: "1391618672544813066",
         userName: "Shiena_l_YG"
     }
-    public static  cast_id_43 = {
-          
-    }
     public static  cast_id_44 = {
         twitterId: "1403230563524247552",
         userName: "Kogare_M_YG"
@@ -190,5 +187,51 @@ export class CastTwitterBase {
     public static  cast_id_49 = {
         twitterId: "1403713803552911363",
         userName: "Muscat_S_YG"
+    }
+    public static  cast_id_50 = {
+        twitterId: "1415282307108249603",
+        userName: "Kukui_H_YG"
+    }
+    public static  cast_id_51 = {
+        twitterId: "1415660903060541446",
+        userName: "Sumire_T_YG"
+    }
+    public static  cast_id_52 = {
+        twitterId: "1415292333474471936",
+        userName: "Mei_M_YG"
+    }
+    public static  cast_id_53 = {
+        twitterId: "1415645757932068866",
+        userName: "Aoha_S_YG"
+    }
+    public static  cast_id_54 = {
+        twitterId: "1416673556167991296",
+        userName: "Iris_S_YG"
+    }
+    public static  cast_id_55 = {
+        twitterId: "1415550211066261505",
+        userName: "Hiyori_Y_YG"
+    }
+    public static  cast_id_43 = {
+        twitterId: "1429464808617746436",
+        userName: "Ritsu_K_YG"
+    }
+    public static  cast_id_56 = {
+        twitterId: "1430101220010577926",
+        userName: "Koshiro_Y_YG"
+    }
+    public static  cast_id_57 = {
+          
+    }
+    public static  cast_id_58 = {
+          
+    }
+    public static  cast_id_59 = {
+        twitterId: "1428293962033336322",
+        userName: "Miya_F_YG"
+    }
+    public static  cast_id_60 = {
+        twitterId: "1428571982459596804",
+        userName: "Ia_K_YG"
     }
 }
