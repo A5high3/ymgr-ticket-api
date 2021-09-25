@@ -221,7 +221,8 @@ export class CastTwitterBase {
         userName: "Koshiro_Y_YG"
     }
     public static  cast_id_57 = {
-          
+        twitterId: "1428582857673383943",
+        userName: "Shiori_A_YG"
     }
     public static  cast_id_58 = {
           
@@ -233,5 +234,9 @@ export class CastTwitterBase {
     public static  cast_id_60 = {
         twitterId: "1428571982459596804",
         userName: "Ia_K_YG"
+    }
+    public static  cast_id_61 = {
+        twitterId: "1429362843237847043",
+        userName: "Sugaru_J_YG"
     }
 }
